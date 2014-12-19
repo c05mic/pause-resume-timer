@@ -5,7 +5,7 @@ A generic timer utility that supports pause and resume operations. Can be used f
 
 To create a timer, extend the `Timer` class
 
-```
+```java
 public class ExampleTimer extends Timer{
  
     public ExampleTimer() {
@@ -31,7 +31,7 @@ public class ExampleTimer extends Timer{
 
 To use the timer:
 
-```
+```java
 //This creates a timer which will tick every second indefinitely.
 Timer oneSecondInfiniteTimer = new ExampleTimer();
  
